@@ -1,0 +1,333 @@
+* {
+    margin: 0px;
+}
+
+.main-container {
+    /* border: 5px solid; */
+    width: 330px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.notch {
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgba(22, 22, 20, 255);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notch .notch-icons{
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+p{
+    color: white;
+    font-family:Helvetica Neue;
+    
+}
+
+.circle {
+    background-color: black;
+    margin-left: 60px;
+    padding-top: 5px;
+    border-radius: 10px 10px 10px 10px;
+    width: 30%;
+    height: 20px;
+}
+
+
+.navbar {
+    background-color: rgba(22, 22, 20, 255);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+
+.dp {
+    background-color: blue;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-image: url(https://preview.redd.it/does-salaar-has-the-same-rewatch-value-for-the-north-v0-wbm0bnwus3ud1.jpeg?auto=webp&s=e63ccc72f30583d5a17ab95fba8497dc15b83844);
+    background-size: cover;
+}
+
+.subnav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.name {
+    height: 100%;
+    color: white;
+    font-family: Helvetica Neue;
+    margin-left: 10px;
+
+}
+
+.lastseen {
+    font-size: 10px;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    color: white;
+}
+
+.vc i{
+    color: white;
+    margin-right: 15px;
+    font-size: 21px;
+}
+
+.audio i{
+    color: white;
+    margin-right: 30px;
+    font-size: 19px;
+}
+
+.chat {
+
+    background-image: url(https://i.pinimg.com/564x/54/3d/e8/543de8a1f2887da54f7b7de6772f6aa2.jpg);
+    height: 550px;
+    width: 100%;
+    opacity: 100%; 
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.date{
+    background-color: rgba(22, 22, 20, 255);
+    font-family:Helvetica Neue ;
+    color: white;
+    font-size: 10px;
+    position: sticky;
+    top: 2px;
+    margin: auto;
+    width: 20%;
+    padding: 2px;
+    border-radius:5px;
+    text-align: center;
+    opacity: 90%;
+}
+
+.chat .right1{
+    background-color: #134d37;
+    width: 50% auto;
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+}
+.chat .right2{
+    background-color: #134d37;
+    width: 50% auto;
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+}
+.chat .left1{
+    background-color: #242625;
+    width: 50% auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 140px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+}
+.chat .right3{
+    background-color: #134d37;
+    width: 50% auto;
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+}
+.chat .left2{
+    background-color: #242625;
+    width: 50% auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 140px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+}
+.chat .right4{
+    background-color: #134d37;
+    width: 50% auto;
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+}
+
+.chat .left3{
+    background-color: #242625;
+    width: 50% auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 190px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+}
+.chat .right5{
+    background-color: #134d37;
+    width: 50% auto;
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+}
+.chat .left4{
+    background-color: #242625;
+    width: 50% auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 170px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+}
+.chat .right6{
+    background-color: #134d37;
+    width: 50% auto;
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+}
+.chat .left5{
+    background-color: #242625;
+    width: 50% auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 170px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+}
+.text-block {
+    background-color: rgba(22, 22, 20, 255);
+    height: 50px;
+    width: 23.35%;
+    margin-bottom: 35px;
+    position: fixed;
+    bottom: 0;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.text-1 {
+    background-color: #202020;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 2px;
+}
+
+.text-1 i {
+   margin-right: 10px;
+    font-size: 16px;
+}
+
+.ruppe {
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+
+}
